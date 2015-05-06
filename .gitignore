@@ -5,3 +5,6 @@ Library
 *.sln
 
 libiPhone-lib.a
+
+# see also below
+# https://github.com/knumata/UnityWatch/issues/1
