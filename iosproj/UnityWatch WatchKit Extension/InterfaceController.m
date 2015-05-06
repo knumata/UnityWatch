@@ -10,6 +10,8 @@
 
 
 @interface InterfaceController()
+// 5/6 numata
+@property(nonatomic, weak) IBOutlet WKInterfaceButton *unityButton;
 
 @end
 
@@ -30,6 +32,12 @@
 - (void)didDeactivate {
     // This method is called when watch view controller is no longer visible
     [super didDeactivate];
+}
+
+// 5/6 numata
+- (IBAction) onUnity {
+    self.unityButton.title = @"Changed!";
+    // self.okButton.color = [UIColor blueColor];
 }
 
 @end
