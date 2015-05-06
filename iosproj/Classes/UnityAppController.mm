@@ -295,6 +295,14 @@ bool	_supportsMSAA			= false;
 	SensorsCleanup();
 }
 
+- (void)application:(UIApplication *)application
+handleWatchKitExtensionRequest:(NSDictionary *)userInfo
+              reply:(void (^)(NSDictionary *replyInfo))reply
+{
+    UnitySendMessage("Sphere", "changeBallColor", "Message to send");
+
+}
+
 @end
 
 
@@ -350,3 +358,4 @@ void UnityInitTrampoline()
 
 	UnityInitJoysticks();
 }
+

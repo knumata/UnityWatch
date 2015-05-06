@@ -38,6 +38,15 @@
 - (IBAction) onUnity {
     self.unityButton.title = @"Changed!";
     // self.okButton.color = [UIColor blueColor];
+    
+    // UnitySendMessage("Sphere", "changeBallColor", "Message to send");
+    
+    NSDictionary *request = @{@"request":@"Hello"};
+    [InterfaceController openParentApplication:request reply:^(NSDictionary *replyInfo, NSError *error) {
+        if (error) {
+            NSLog(@"%@", error);
+        }
+    }];
 }
 
 @end
