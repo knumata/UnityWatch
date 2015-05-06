@@ -14,6 +14,9 @@ Unity iOS アプリと、それを操作できる Apple Watch アプリのコー
 
 Unity のディレクトリと iOS project のディレクトリにわかれています。
 
+* https://github.com/knumata/UnityWatch/tree/develop/UnityWatchProj
+* https://github.com/knumata/UnityWatch/tree/develop/iosproj
+
 Unity project から iOS project を生成し、その上に変更を加えています。従って、Unity project からビルドし直すと、iOS project を上書きしてしまいます。つまり、完全な iOS project を作るにはパッチをあてる必要があります（今回は未対応）
 
 ## アプリの操作・テスト方法
