@@ -33,3 +33,9 @@ openParentApplication と UnitySendMessage を経由して Apple Watch から Un
 * https://github.com/knumata/UnityWatch/blob/develop/iosproj/Classes/UnityAppController.mm#L298
 
 もっと複雑なことができますが、公開版ではここまでとします。
+
+## TODO
+
+* #5 https://github.com/knumata/UnityWatch/issues/5
+* #6 https://github.com/knumata/UnityWatch/issues/6
+* #7 https://github.com/knumata/UnityWatch/issues/7
